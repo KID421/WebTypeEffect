@@ -22,4 +22,14 @@ html, body {
 .type:after {
     content: "";
     border-right: 1px solid #fff;
+    animation: 0.5s infinite shine;
+}
+
+@keyframes shine {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
